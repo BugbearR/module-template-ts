@@ -1,0 +1,17 @@
+{
+  "name": "module-template-ts",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "workspace",
+  "workspaceFolder": "/module-template-ts",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "EditorConfig.EditorConfig",
+        "shardulm94.trailing-spaces"
+      ]
+    }
+  }
+}

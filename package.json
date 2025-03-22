@@ -1,0 +1,28 @@
+{
+  "name": "@bugbearr/module-template",
+  "version": "1.0.0",
+  "author": "bugbearr",
+  "license": "CC0-1.0",
+  "description": "A template for creating TypeScript modules",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "bun build",
+    "test": "bun test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugbearr/module-template-ts.git"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "rollup": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {}
+}

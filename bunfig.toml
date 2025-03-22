@@ -1,0 +1,5 @@
+name = "bugbearr@module-template"
+version = "1.0.0"
+description = "A template for creating TypeScript modules"
+main = "dist/index.js"
+module = "dist/index.esm.js"

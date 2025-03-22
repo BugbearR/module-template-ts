@@ -1,0 +1,12 @@
+version: "3"
+services:
+  workspace:
+    build:
+      context: ./docker/workspace
+      dockerfile: Dockerfile
+    volumes:
+      - type: bind
+        source: ..
+        target: /module-template-ts
+    tty: true
+    stdin_open: true
