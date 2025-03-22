@@ -13,5 +13,6 @@
         "shardulm94.trailing-spaces"
       ]
     }
-  }
+  },
+  "postCreateCommand": ".devcontainer/workspace/init.sh"
 }
