@@ -1,4 +1,4 @@
-name = "bugbearr@module-template"
+name = "@bugbearr/module-template"
 version = "1.0.0"
 description = "A template for creating TypeScript modules"
 main = "dist/index.js"
