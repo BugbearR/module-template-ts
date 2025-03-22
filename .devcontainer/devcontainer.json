@@ -9,6 +9,7 @@
     "vscode": {
       "extensions": [
         "ms-azuretools.vscode-docker",
+        "github.vscode-github-actions",
         "EditorConfig.EditorConfig",
         "shardulm94.trailing-spaces"
       ]
